@@ -20,6 +20,8 @@ insert into funcionario(nome, sexo, dtNasc, salario, codDepto) values ('Marcos',
 insert into funcionario(nome, sexo, dtNasc, salario, codDepto) values ('Cintia', 'F', '1990-03-16', 2200.00, 5);
 insert into funcionario(nome, sexo, dtNasc, salario, codDepto) values ('Livia', 'F', '1989-09-11', 3450.00, 5);
 
+insert into funcionario(nome, sexo, dtNasc, salario, codDepto) values ('Maria Fernanda', 'F', '1969-08-24', 3200.00, null);
+
 
 insert into projeto(nome, descricao, codDepto, codResponsavel, dataInicio, dataFim)
 values ('Websites', 'Criação de websites', 1, 2, '2022-05-12', '2022-08-12');

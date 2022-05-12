@@ -7,3 +7,4 @@
 
 ### [Questão 02](tarefa01-q02.sql)
 ### [Questão 04](tarefa01-q04.sql)
+### [Questão 06](tarefa01-q06.sql)
