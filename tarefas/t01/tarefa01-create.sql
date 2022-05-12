@@ -14,8 +14,6 @@ create table funcionario (
     foreign key (codDepto) references departamento(codigo)
 );
 
-alter table departamento add foreign key (codGerente) references funcionario(codigo);
-
 create table projeto (
     codigo serial primary key,
     nome varchar(150) not null,
@@ -35,12 +33,15 @@ create table atividade (
     codResponsavel int not null,
     dataInicio date not null,
     dataFim date not null,
-    foreigh key (codResponsavel) references funcionario(codigo)
+    foreign key (codResponsavel) references funcionario(codigo)
 );
 
 create table atividade_projeto (
-    codProjeto int primary key,
-    codAtividade int primary key,
-    foreign key codProjeto references projeto(codigo),
-    foreign key codAtividade references atividade(codigo),
+    codProjeto int,
+    codAtividade int,
+    primary key(codProjeto, codAtividade),
+    foreign key (codProjeto) references projeto(codigo),
+    foreign key (codAtividade) references atividade(codigo)
 );
+
+alter table departamento add foreign key (codGerente) references funcionario(codigo);
