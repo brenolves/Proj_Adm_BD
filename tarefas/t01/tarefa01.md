@@ -13,3 +13,4 @@
 ### [Questão 12](tarefa01-q12.sql)
 ### [Questão 14](tarefa01-q14.sql)
 ### [Questão 16](tarefa01-q16.sql)
+### [Questão 18](tarefa01-q18.sql)
