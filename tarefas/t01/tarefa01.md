@@ -12,3 +12,4 @@
 ### [Questão 10](tarefa01-q10.sql)
 ### [Questão 12](tarefa01-q12.sql)
 ### [Questão 14](tarefa01-q14.sql)
+### [Questão 16](tarefa01-q16.sql)
