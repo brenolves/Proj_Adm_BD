@@ -5,6 +5,7 @@ create view getProjectNum(cod, num) as
     group by d.codigo
 ;
 
-select d.descricao nomeDoDepartamento, f.nome nomeDoGerente, p.num numeroDeProjetos 
+select d.descricao, f.nome, p.num  
 from departamento d, funcionario f, getProjectNum p 
-where d.codGerente = f.codigo and p.cod = d.codigo;
+where d.codGerente = f.codigo 
+    and p.cod = d.codigo;
